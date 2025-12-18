@@ -1,3 +1,5 @@
+![icon](./README/icon.png)
+
 # wndinfo
 
 Window information viewing tool for researching and debugging on Windows
