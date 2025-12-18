@@ -32,6 +32,9 @@ Windows 10 1607 or later
 - ✅The program itself can be set language (English/Simplified Chinese), positions, font size, always on top, round corner border (Windows 11 only), and transparency
 
     程序本身可以设置语言（英语/简体中文），位置，字体大小，是否始终在顶部，圆角边框（仅 Windows 11）和透明度
+- ✅And these settings can be saved to a config file and applied at the next startup
+
+    这些设置可以保存到配置文件中，并在下次启动时应用
 
 ## Build 构建
 #### MSVC:
