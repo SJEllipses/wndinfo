@@ -1,5 +1,3 @@
-![wndinfo](./README/wndinfo.png)
-
 # wndinfo
 
 Window information viewing tool for researching and debugging on Windows
@@ -44,3 +42,6 @@ Windows 10 1607 or later
 #### MinGW:
 
 1. run build_MinGW.bat
+
+## Screenshot 截图
+![wndinfo](./README/wndinfo.png)
