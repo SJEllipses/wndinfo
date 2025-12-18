@@ -39,12 +39,12 @@ Windows 10 1607 or later
 ## Build 构建
 #### MSVC:
 
-1. Go to Developer Command Prompt for VS or Developer PowerShell for VS
-2. run build_MSVC.bat
+1. Go to `Developer Command Prompt for VS or Developer PowerShell for VS`
+2. run `build_MSVC.bat`
 
 #### MinGW:
 
-1. run build_MinGW.bat
+1. run `build_MinGW.bat`
 
 ## Screenshot 截图
 ![wndinfo](./README/wndinfo.png)
