@@ -14,11 +14,14 @@ Windows 10 1607 or later
 (因为使用了 `GetWindowDpiAwarenessContext()`)
 
 ## Usage 使用方法
-Run `wndinfo.exe`
+- Run `wndinfo.exe`
 
-It displays the information of the foreground window as well as the information of the window where the mouse pointer is located
+   It displays the information of the foreground window as well as the information of the window where the mouse pointer is located
 
-它会显示最前端窗口的信息，以及鼠标指针所在位置的窗口的信息
+   它会显示最前端窗口的信息，以及鼠标指针所在位置的窗口的信息
+
+- Right click to show the menu
+   右键点击显示菜单
 
 ## Features 特色
 - ✅Pure Win32 C/C++
