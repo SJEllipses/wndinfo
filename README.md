@@ -21,6 +21,7 @@ Windows 10 1607 or later
    它会显示最前端窗口的信息，以及鼠标指针所在位置的窗口的信息
 
 - Right click to show the menu
+  
    右键点击显示菜单
 
 ## Features 特色
