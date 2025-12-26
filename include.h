@@ -12,7 +12,7 @@
 #define WM_UPDATE_STATIC (WM_USER + 1)
 
 // Version
-#define WNDINFO_VERSION L"0.0.1"
+#define WNDINFO_VERSION L"0.0.2"
 
 // Actions
 #define IDM_MINIMIZE 1001
