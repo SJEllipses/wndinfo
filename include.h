@@ -7,6 +7,7 @@
 #include <dwmapi.h>
 #include <string>
 #include <thread>
+#include <cmath>
 
 #define WM_UPDATE_STATIC (WM_USER + 1)
 

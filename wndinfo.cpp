@@ -358,7 +358,7 @@ std::wstring GetForegroundWindowText()
             windowTextInf += L"Window Class: " + std::wstring(className) + L"\n";
             windowTextInf += L"Window PID: " + std::to_wstring(processId) + L"\n";
             windowTextInf += L"Window Process Name: " + procssName + L"\n";
-            windowTextInf += L"Window DPI: " + std::to_wstring(GetDpiForWindow(hForeground) / USER_DEFAULT_SCREEN_DPI * 100) + L"%\n";
+            windowTextInf += L"Window DPI: " + std::to_wstring(static_cast<int>(std::round(static_cast<double>(GetDpiForWindow(hForeground)) / USER_DEFAULT_SCREEN_DPI * 100.0))) + L"%\n";
             windowTextInf += L"Window DPI Awareness: " + GetDpiAwarenessByHwnd(hForeground) + L"\n";
         }
         else if (currentLanguage == LANG_SIMPLIFIED_CHINESE)
@@ -368,7 +368,7 @@ std::wstring GetForegroundWindowText()
             windowTextInf += L"窗口类名: " + std::wstring(className) + L"\n";
             windowTextInf += L"窗口进程ID: " + std::to_wstring(processId) + L"\n";
             windowTextInf += L"窗口进程名: " + procssName + L"\n";
-            windowTextInf += L"窗口DPI: " + std::to_wstring(GetDpiForWindow(hForeground) / USER_DEFAULT_SCREEN_DPI * 100) + L"%\n";
+            windowTextInf += L"窗口DPI: " + std::to_wstring(static_cast<int>(std::round(static_cast<double>(GetDpiForWindow(hForeground)) / USER_DEFAULT_SCREEN_DPI * 100.0))) + L"%\n";
             windowTextInf += L"窗口DPI感知: " + GetDpiAwarenessByHwnd(hForeground) + L"\n";
         }
     }
@@ -416,7 +416,7 @@ std::wstring GetMousePosWindowText(HWND hwnd)
                 windowTextInf += L"Window Class: " + std::wstring(L"Static") + L"\n";
                 windowTextInf += L"Window PID: " + std::to_wstring(processId) + L"\n";
                 windowTextInf += L"Window Process Name: " + std::wstring(procssName) + L"\n";
-                windowTextInf += L"Window DPI: " + std::to_wstring(GetDpiForWindow(hTarget) / USER_DEFAULT_SCREEN_DPI * 100) + L"%\n";
+                windowTextInf += L"Window DPI: " + std::to_wstring(static_cast<int>(std::round(static_cast<double>(GetDpiForWindow(hTarget)) / USER_DEFAULT_SCREEN_DPI * 100.0))) + L"%\n";
                 windowTextInf += L"Window DPI Awareness: " + GetDpiAwarenessByHwnd(hTarget) + L"\n";
             }
             else if (currentLanguage == LANG_SIMPLIFIED_CHINESE)
@@ -426,7 +426,7 @@ std::wstring GetMousePosWindowText(HWND hwnd)
                 windowTextInf += L"窗口类名: " + std::wstring(L"Static") + L"\n";
                 windowTextInf += L"窗口进程ID: " + std::to_wstring(processId) + L"\n";
                 windowTextInf += L"窗口进程名: " + std::wstring(procssName) + L"\n";
-                windowTextInf += L"窗口DPI: " + std::to_wstring(GetDpiForWindow(hTarget) / USER_DEFAULT_SCREEN_DPI * 100) + L"%\n";
+                windowTextInf += L"窗口DPI: " + std::to_wstring(static_cast<int>(std::round(static_cast<double>(GetDpiForWindow(hTarget)) / USER_DEFAULT_SCREEN_DPI * 100.0))) + L"%\n";
                 windowTextInf += L"窗口DPI感知: " + GetDpiAwarenessByHwnd(hTarget) + L"\n";
             }
 
@@ -463,7 +463,7 @@ std::wstring GetMousePosWindowText(HWND hwnd)
                 windowTextInf += L"Window Class: " + std::wstring(className) + L"\n";
                 windowTextInf += L"Window PID: " + std::to_wstring(processId) + L"\n";
                 windowTextInf += L"Window Process Name: " + std::wstring(procssName) + L"\n";
-                windowTextInf += L"Window DPI: " + std::to_wstring(GetDpiForWindow(hTarget) / USER_DEFAULT_SCREEN_DPI * 100) + L"%\n";
+                windowTextInf += L"Window DPI: " + std::to_wstring(static_cast<int>(std::round(static_cast<double>(GetDpiForWindow(hTarget)) / USER_DEFAULT_SCREEN_DPI * 100.0))) + L"%\n";
                 windowTextInf += L"Window DPI Awareness: " + GetDpiAwarenessByHwnd(hTarget) + L"\n";
             }
             else if (currentLanguage == LANG_SIMPLIFIED_CHINESE)
@@ -473,7 +473,7 @@ std::wstring GetMousePosWindowText(HWND hwnd)
                 windowTextInf += L"窗口类名: " + std::wstring(className) + L"\n";
                 windowTextInf += L"窗口进程ID: " + std::to_wstring(processId) + L"\n";
                 windowTextInf += L"窗口进程名: " + std::wstring(procssName) + L"\n";
-                windowTextInf += L"窗口DPI: " + std::to_wstring(GetDpiForWindow(hTarget) / USER_DEFAULT_SCREEN_DPI * 100) + L"%\n";
+                windowTextInf += L"窗口DPI: " + std::to_wstring(static_cast<int>(std::round(static_cast<double>(GetDpiForWindow(hTarget)) / USER_DEFAULT_SCREEN_DPI * 100.0))) + L"%\n";
                 windowTextInf += L"窗口DPI感知: " + GetDpiAwarenessByHwnd(hTarget) + L"\n";
             }
         }
